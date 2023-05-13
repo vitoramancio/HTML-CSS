@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(197, 197, 197);
+            padding: 2px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.589);
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;  
+            margin-right: 40px; 
+            
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: yellowgreen;
+            text-decoration: none;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+        }
+        article {
+            background-color: lightpink;
+        }
+        article > aside {
+            background-color: lightcoral;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>noticias sobre o bostil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, iusto doloribus! Rem aliquid nulla illo suscipit sunt cum laboriosam quisquam aspernatur neque, quaerat beatae delectus? Provident porro facilis quibusdam blanditiis?</p>
+                <aside>
+                    <p>Noticia por deide costa</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por eu</p>
+    </footer>
+</body>
+</html>
